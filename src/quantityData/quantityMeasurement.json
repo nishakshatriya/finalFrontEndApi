@@ -1,0 +1,24 @@
+{
+    "LENGTH":
+    {
+        "INCH":1,
+        "FEET":12,
+        "YARD":36,
+        "CENTIMETER":2.5
+    },
+    "VOLUME":{
+        "LITRE":1,
+        "GALLON":1000,
+        "MILLILITER":0.001
+    },
+    "wEIGHT":{
+        "KILOGRAM":1,
+        "GRAM":1000,
+        "TONNE":0.001
+    },
+    "TEMPERATURE":{
+        "CELSIUS":1,
+        "FAHRENHEIT":2.12
+    }
+
+}

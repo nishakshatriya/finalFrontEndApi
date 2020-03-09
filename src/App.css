@@ -1,0 +1,121 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+  
+}
+
+body{
+  background-color:lavender;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.title {
+  
+  text-align: center;
+  font-size: small;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  box-shadow: pink;
+}
+
+#title{
+  animation: example 2s infinite ;
+
+}
+
+#tName {
+  background-color: white;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 5%;
+  height: 200%;
+  width: 100%;
+}
+
+.dropdown  {
+  margin-top: 1%;
+  margin-left: 11%;
+  height: 35px;
+  width: 60%;
+}
+
+.dropdownChild{
+  display: flex;
+  justify-content: space-between;
+  font-size: small;  
+  margin-top: 4%;
+  margin:center;
+
+}
+.dropdownMain {
+  min-height: 4vh;
+  min-width: 1em;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  font-size: small;  
+
+}
+
+.border {
+  background-color: (143,143,168);
+  border: groove;
+  width: 100%;
+  height: 250px;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+
+.textValue{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 19px;
+  height: 10px;
+}
+
+@keyframes example {
+  0%   {background-color: honeydew;}
+  25%  {background-color: rgb(240, 240, 221);}
+  50%  {background-color: khaki;}
+  100% {background-color: lavenderblush;}
+}
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#labels{
+  margin-top: 5%;
+  margin-right: 3%;
+}
+button{
+  margin-top: 80%;
+  height: 25px;
+}
